@@ -19,6 +19,7 @@ for file in os.listdir(csv_folder):
 	df = pd.read_csv(csv_path)
 	for i in range(len(df)):
 	    s_bbox = df.at[i,'yolo_bbox']
+	    # skip the string nan
 	    if s_bbox != s_bbox:
 	    	continue
 	    s_AU = df.at[i,'1']
