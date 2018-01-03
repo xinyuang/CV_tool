@@ -1,0 +1,5 @@
+1. put weights in the root
+2. cfg file
+3. data file
+4. list file
+5. run Extract_face_position.py
